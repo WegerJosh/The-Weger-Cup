@@ -1,26 +1,76 @@
+/* =========================
+   GLOBAL PAGE STYLE
+========================= */
+
 body {
-  font-family: Arial;
-  text-align: center;
-  background-color: #1e1e2f; /* dark blue/purple */
+  background-color: #4b2e83; /* purple background */
   color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1, h2, h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+/* =========================
+   NAVIGATION LINKS
+========================= */
+
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   TABLE STYLING (FIXED)
+   BLACK TABLES + WHITE TEXT
+========================= */
 
 table {
-  margin: auto;
+  margin: 20px auto;
   border-collapse: collapse;
-  width: 70%;
+  width: 75%;
+  background-color: #000000; /* black table */
+  color: #ffffff; /* white text */
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-th, td {
-  border: 1px solid black;
-  padding: 10px;
-}
-
+/* table headers */
 th {
-  background-color: #333;
+  background-color: #1a1a1a; /* dark gray header */
   color: white;
+  padding: 12px;
+  border: 1px solid #333;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
+/* table cells */
+td {
+  background-color: #000000; /* keep all rows black */
+  color: white;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+/* hover effect (optional but nice) */
+tr:hover td {
+  background-color: #111111;
 }
