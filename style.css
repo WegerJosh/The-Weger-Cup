@@ -1,6 +1,8 @@
 body {
   font-family: Arial;
   text-align: center;
+  background-color: #1e1e2f; /* dark blue/purple */
+  color: white;
 }
 
 table {
