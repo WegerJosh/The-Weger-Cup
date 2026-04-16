@@ -80,3 +80,7 @@ tr:hover td {
   margin: 60px auto;
   padding: 40px;
 }
+
+body {
+  background-color: red;
+}
