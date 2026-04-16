@@ -1,38 +1,38 @@
 /* =========================
-   GLOBAL PAGE STYLE
+   GLOBAL PAGE STYLE (BIGGER)
 ========================= */
 
 body {
-  background-color: #4b2e83; /* purple background */
+  background-color: #4b2e83;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
-  font-size: 18px;      /* bigger text */
-  line-height: 1.6;     /* more spacing between lines */
+  font-size: 22px;      /* BIGGER BASE TEXT */
+  line-height: 1.8;     /* MORE SPACING */
 }
 
 /* =========================
-   HEADINGS
+   HEADINGS (BIGGER)
 ========================= */
 
 h1 {
   color: white;
-  font-size: 48px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  font-size: 60px;      /* BIG HEADER */
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 h2 {
   color: white;
-  font-size: 26px;
-  margin-bottom: 20px;
+  font-size: 34px;
+  margin-bottom: 25px;
 }
 
 h3 {
   color: white;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 /* =========================
@@ -40,14 +40,15 @@ h3 {
 ========================= */
 
 p {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 25px;
 }
 
 ul {
   list-style-position: inside;
-  margin-bottom: 20px;
-  line-height: 1.8;
+  margin-bottom: 25px;
+  line-height: 2;
+  font-size: 22px;
 }
 
 /* =========================
@@ -55,15 +56,15 @@ ul {
 ========================= */
 
 nav {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 nav a {
   color: #ffffff;
-  margin: 0 15px;   /* more space between links */
+  margin: 0 18px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 nav a:hover {
@@ -71,13 +72,13 @@ nav a:hover {
 }
 
 /* =========================
-   TABLE STYLING
+   TABLE STYLING (BIGGER)
 ========================= */
 
 table {
-  margin: 20px auto;
+  margin: 30px auto;
   border-collapse: collapse;
-  width: 75%;
+  width: 80%;
   background-color: #000000;
   color: #ffffff;
   border-radius: 8px;
@@ -87,15 +88,17 @@ table {
 th {
   background-color: #1a1a1a;
   color: white;
-  padding: 12px;
+  padding: 16px;
   border: 1px solid #333;
+  font-size: 20px;
 }
 
 td {
   background-color: #000000;
   color: white;
-  padding: 10px;
+  padding: 14px;
   border: 1px solid #333;
+  font-size: 20px;
 }
 
 tr:hover td {
@@ -103,22 +106,22 @@ tr:hover td {
 }
 
 /* =========================
-   CONTAINER
+   CONTAINER (BIGGER + MORE AIR)
 ========================= */
 
 .container {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 40px;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
 }
 
 /* =========================
-   LOGO
+   LOGO (BIGGER)
 ========================= */
 
-img {
-  margin-top: 30px;
-  width: 160px;
+.logo {
+  margin-top: 40px;
+  width: 380px;
 }
