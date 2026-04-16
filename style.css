@@ -81,6 +81,10 @@ tr:hover td {
   padding: 40px;
 }
 
-body {
-  background-color: red;
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
