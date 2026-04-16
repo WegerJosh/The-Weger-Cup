@@ -9,15 +9,45 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  font-size: 18px;      /* bigger text */
+  line-height: 1.6;     /* more spacing between lines */
 }
 
 /* =========================
    HEADINGS
 ========================= */
 
-h1, h2, h3 {
+h1 {
   color: white;
+  font-size: 48px;
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
+/* =========================
+   TEXT + LIST SPACING
+========================= */
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-position: inside;
+  margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 /* =========================
@@ -30,9 +60,10 @@ nav {
 
 nav a {
   color: #ffffff;
-  margin: 0 10px;
+  margin: 0 15px;   /* more space between links */
   text-decoration: none;
   font-weight: bold;
+  font-size: 18px;
 }
 
 nav a:hover {
@@ -40,40 +71,40 @@ nav a:hover {
 }
 
 /* =========================
-   TABLE STYLING (FIXED)
-   BLACK TABLES + WHITE TEXT
+   TABLE STYLING
 ========================= */
 
 table {
   margin: 20px auto;
   border-collapse: collapse;
   width: 75%;
-  background-color: #000000; /* black table */
-  color: #ffffff; /* white text */
+  background-color: #000000;
+  color: #ffffff;
   border-radius: 8px;
   overflow: hidden;
 }
 
-/* table headers */
 th {
-  background-color: #1a1a1a; /* dark gray header */
+  background-color: #1a1a1a;
   color: white;
   padding: 12px;
   border: 1px solid #333;
 }
 
-/* table cells */
 td {
-  background-color: #000000; /* keep all rows black */
+  background-color: #000000;
   color: white;
   padding: 10px;
   border: 1px solid #333;
 }
 
-/* hover effect (optional but nice) */
 tr:hover td {
   background-color: #111111;
 }
+
+/* =========================
+   CONTAINER
+========================= */
 
 .container {
   max-width: 800px;
@@ -81,4 +112,13 @@ tr:hover td {
   padding: 40px;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+img {
+  margin-top: 30px;
+  width: 160px;
 }
