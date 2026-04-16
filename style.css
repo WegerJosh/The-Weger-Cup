@@ -74,3 +74,9 @@ td {
 tr:hover td {
   background-color: #111111;
 }
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+}
