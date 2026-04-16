@@ -123,6 +123,7 @@ tr:hover td {
 ========================= */
 
 .logo {
-  margin-top: 40px;
-  width: 200px;
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 180px;
 }
