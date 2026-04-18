@@ -44,6 +44,11 @@ p {
   margin-bottom: 25px;
 }
 
+.winner {
+  color: gold;
+  font-weight: bold;
+}
+
 ul {
   list-style-position: inside;
   margin-bottom: 25px;
