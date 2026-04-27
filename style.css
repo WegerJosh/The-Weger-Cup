@@ -132,3 +132,9 @@ tr:hover td {
   margin: 0 auto 20px auto;
   width: 360px;
 }
+
+.winner {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+}
